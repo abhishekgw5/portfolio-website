@@ -7,15 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import githubLogo from "@/public/icons/github2.svg";
 import liveProjectLogo from "@/public/icons/globe.png";
 
-type ProjectProps = {
-  title: string;
-  description: string;
-  tags: string[];
-  imageUrl: string;
-  githubLink?: string;
-  liveProjectLink?: string;
-} & { index: number };
-
+type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,

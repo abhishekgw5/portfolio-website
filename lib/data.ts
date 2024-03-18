@@ -101,6 +101,7 @@ export const projectsData = [
     tags: ["Python", "Flask", "Data Analysis", " Data Visualization", "HTML", "CSS"],
     imageUrl: agropredictImg,
     githubLink: "https://github.com/abhishekgw5/agroPredict",
+    liveProjectLink: undefined,
   },
   {
     title: "Spend Wisely",
